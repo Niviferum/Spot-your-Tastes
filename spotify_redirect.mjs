@@ -1,4 +1,3 @@
-const axios = require('axios');
 import axios from 'axios';
 
 const clientId = 'eaeb4cba24c84d35a00d5192fac4622d';
