@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'C:\Users\FX517\node_modules\axios\dist\axios.js'
 
 const clientId = 'eaeb4cba24c84d35a00d5192fac4622d';
 const clientSecret = '237e241811434926bd53ce97b9378fbb';
