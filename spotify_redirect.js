@@ -1,4 +1,5 @@
-import { post } from 'axios';
+const axios = require('axios');
+import axios from 'axios';
 
 const clientId = 'eaeb4cba24c84d35a00d5192fac4622d';
 const clientSecret = '237e241811434926bd53ce97b9378fbb';
@@ -13,7 +14,7 @@ const requestBody = {
     client_secret: clientSecret
 };
 
-post('https://accounts.spotify.com/api/token', requestBody)
+axios.post('https://accounts.spotify.com/api/token', requestBody)
     .then(response => {
         const accessToken = response.data.access_token;
         const refreshToken = response.data.refresh_token;
